@@ -42,3 +42,19 @@
     transform: translateX(-500px);
     transition: all 500ms ease-in;
   }
+
+  .page__wrapper{
+ margin-top: 30px;
+ display: flex;
+  }
+  .page{
+    margin: 5px;
+    padding: 10px;
+    color: green;
+    border: 1px solid green;
+    cursor: pointer;
+ }
+ .page__current{
+  border: 2px solid rgb(8, 58, 8);
+  font-weight: bold;
+ }
